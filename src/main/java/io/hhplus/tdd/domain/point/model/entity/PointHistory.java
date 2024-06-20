@@ -1,4 +1,6 @@
-package io.hhplus.tdd.point;
+package io.hhplus.tdd.domain.point.model.entity;
+
+import io.hhplus.tdd.domain.point.model.enums.TransactionType;
 
 public record PointHistory(
         long id,
